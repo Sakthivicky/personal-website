@@ -14,7 +14,8 @@ const Herosection = () => {
             <div className="col-span-1 lg:col-span-7 flex flex-col justify-center lg:items-start items-center text-center lg:text-left sm:text-left">
                 <h1 className="text-white font-extrabold text-3xl lg:text-6xl mb-4 lg:mb-6">
                     <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-400  via-pink-400 to-purple-500">
-                        Hello, I'm {''}
+                        Hello, I&#39;m {''}
+
                     </span>
                     <br></br>
                     <TypeAnimation
