@@ -84,9 +84,9 @@ const Aboutsection = () => {
         <section className=" text-white bg-black">
             <div className="md:grid md:grid-cols-2 gap-8  items-center py-8  px-4  xl:gap-16 sm:py-16 ">
                 <Image src="/images/about-image.png" alt="about" width={500} height={500} />
-                <div className="mt-8 sm:py-2">
+                <div className="mt-8 sm:py-2 md:mt-0  text-left  flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white ">About Me</h2>
-                    <p className=" text-base lg:text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, autem! Eius ipsum illo iste distinctio deleniti, veritatis voluptates temporibus dolorum, libero expedita fuga. Veniam corporis maxime inventore consequuntur earum iure.</p>
+                    <p className=" text-base lg:text-lg mt-1">I'm a Front-End Developer with experience in creating dynamic and user-friendly web applications. I have also worked on no-code front-end development, enabling rapid prototyping and efficient solutions. </p>
                     <div className="flex flex-row mt-8 space-x-4">
                         <Tabbutton selectTab={() => handlechange("skills")} active={tab === "skills"} >Skills</Tabbutton>
 
