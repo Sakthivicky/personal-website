@@ -86,7 +86,7 @@ const Aboutsection = () => {
                 <Image src="/images/about-image.png" alt="about" width={500} height={500} />
                 <div className="mt-8 sm:py-2 md:mt-0  text-left  flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white ">About Me</h2>
-                    <p className=" text-base lg:text-lg mt-1">I'm a Front-End Developer with experience in creating dynamic and user-friendly web applications. I have also worked on no-code front-end development, enabling rapid prototyping and efficient solutions. </p>
+                    <p className=" text-base lg:text-lg mt-1"> I&apos;m a Front-End Developer with experience in creating dynamic and user-friendly web applications. I have also worked on no-code front-end development, enabling rapid prototyping and efficient solutions. I have also worked on no-code front-end development, enabling rapid prototyping and efficient solutions. </p>
                     <div className="flex flex-row mt-8 space-x-4">
                         <Tabbutton selectTab={() => handlechange("skills")} active={tab === "skills"} >Skills</Tabbutton>
 
