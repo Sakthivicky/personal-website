@@ -22,10 +22,12 @@ const Emailsection = () => {
     return (
         <div className='grid md:grid-cols-2 my-12md:my-12 py-24 gap-4'>
             <div>
-                <h5 className=' text-xl fontbold text-white my-2'>Lets connect</h5>
+                <h5 className=' text-xl fontbold text-white my-2'>Get in Touch</h5>
                 <p className='text-gray-500 mb-4 max-w-md'>
 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, architecto rerum laborum natus corrupti distinctio porro sint odit praesentium, animi debitis quos delectus maiores fuga, dolore cumque aperiam commodi veritatis!
+                    Have a project in mind, or just want to chat about web development? I’m always excited to discuss new ideas, collaborate on interesting projects, or help solve your frontend challenges. Whether you need a custom website, a responsive UI, or performance optimization, I’m here to bring your vision to life. Feel free to reach out, and let's create something amazing together!
+
+
 
                 </p>
                 <div className='socials flex flex-row gap-4'>
