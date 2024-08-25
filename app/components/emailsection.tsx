@@ -35,7 +35,7 @@ const Emailsection = () => {
                         <FaGithub size={30} className='text-white' />
                     </Link>
 
-                    <Link href="Linkedin.com">
+                    <Link href="https://www.linkedin.com/in/sakthi-vignesh-5ab314282/">
                         <FaLinkedin size={30} className='text-white' />
                     </Link>
 

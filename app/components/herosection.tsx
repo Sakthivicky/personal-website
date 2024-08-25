@@ -39,7 +39,13 @@ const Herosection = () => {
                 </p>
                 <div>
                     <button className="border-md rounded-full bg-[#897243] px-6 py-3  mt-2 mr-4 lg:mt-9 hover:bg-slate-200 hover:text-black w-full sm:w-fit "> Hire Me</button>
-                    <button className="border-md rounded-full bg-transparent border border-white px-6 py-3  mt-2 mr-4 lg:mt-9 hover:bg-slate-200 hover:text-black w-full  sm:w-fit"> Download CV</button>
+                    <a
+                        href="/sakthivignesh.pdf"
+                        download="sakthivignesh.pdf"
+                        className="border-md rounded-full bg-transparent border border-white px-6 py-3 mt-2 mr-4 lg:mt-9 hover:bg-slate-200 hover:text-black w-full sm:w-fit"
+                    >
+                        Download CV
+                    </a>
                 </div>
             </div>
             <div className="col-span-1 lg:col-span-5 flex justify-center lg:justify-end mt-6 lg:mt-0">
