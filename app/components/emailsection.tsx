@@ -24,8 +24,8 @@ const Emailsection = () => {
             <div>
                 <h5 className=' text-xl fontbold text-white my-2'>Get in Touch</h5>
                 <p className='text-gray-500 mb-4 max-w-md'>
+                    Have a project in mind, or just want to chat about web development? I&rsquo;m always excited to discuss new ideas, collaborate on interesting projects, or help solve your frontend challenges. Whether you need a custom website, a responsive UI, or performance optimization, I&rsquo;m here to bring your vision to life. Feel free to reach out, and let&rsquo;s create something amazing together!
 
-                    Have a project in mind, or just want to chat about web development? I’m always excited to discuss new ideas, collaborate on interesting projects, or help solve your frontend challenges. Whether you need a custom website, a responsive UI, or performance optimization, I’m here to bring your vision to life. Feel free to reach out, and let's create something amazing together!
 
 
 
