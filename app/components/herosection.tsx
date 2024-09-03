@@ -39,15 +39,17 @@ const Herosection = () => {
                 </p>
                 <div>
                     <button className="border-md rounded-full bg-[#897243] px-6 py-3  mt-2 mr-4 lg:mt-9 hover:bg-slate-200 hover:text-black w-full sm:w-fit "> Hire Me</button>
-                    <a
-                        href="/sakthivignesh.pdf"
-                        download="sakthivignesh.pdf"
-                        className="border-md rounded-full bg-transparent border border-white px-6 py-3 mt-2 mr-4 lg:mt-9 hover:bg-slate-200 hover:text-black w-full sm:w-fit"
-                    >
-                        Download CV
-                    </a>
+                    <button className="border-md rounded-full bg-[#897243] px-6 py-3  mt-2 mr-4 lg:mt-9 hover:bg-slate-200 hover:text-black w-full sm:w-fit">
+                        <a
+                            href="/sakthivignesh.pdf"
+                            download="sakthivignesh.pdf"
+                            className=""
+                        >
+                            Download CV
+                        </a>
+                    </button>
                 </div>
-            </div>
+            </div >
             <div className="col-span-1 lg:col-span-5 flex justify-center lg:justify-end mt-6 lg:mt-0">
                 <div className="relative rounded-full bg-[#0c0c0c] w-[250px] h-[250px] lg:w-[500px] lg:h-[500px]">
                     <Image
@@ -59,7 +61,7 @@ const Herosection = () => {
                     />
                 </div>
             </div>
-        </main>
+        </main >
     );
 };
 
