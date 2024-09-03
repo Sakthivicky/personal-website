@@ -2,8 +2,9 @@ import Aboutsection from "./components/aboutsection";
 import Herosection from "./components/herosection";
 import Navbar from "./components/navbar";
 import Projectsection from "./components/projectsection";
-
+import { Analytics } from "@vercel/analytics/react";
 import ContactForm from "./components/emailsection";
+
 
 export default function Home() {
   return (
