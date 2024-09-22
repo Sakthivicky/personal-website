@@ -2,8 +2,9 @@ import Aboutsection from "./components/aboutsection";
 import Herosection from "./components/herosection";
 import Navbar from "./components/navbar";
 import Projectsection from "./components/projectsection";
-import { Analytics } from "@vercel/analytics/react";
+
 import ContactForm from "./components/emailsection";
+import Feedback from "./components/feedback";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
             <Aboutsection />
             <Projectsection />
             <ContactForm />
+            <Feedback />
           </div>
         </div>
       </main>

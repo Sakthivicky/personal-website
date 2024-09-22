@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +17,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+
+
+        {children}
+        <div id="happymonial-widget-container" data-widgetid="574e48b0-2b1f-4639-8f47-7f1f56b5b49a"></div>
+        <Script src="https://happymonial.com/scripts/embed.js" defer></Script>
+
+      </body>
       <Analytics />
     </html>
   );
